@@ -4,9 +4,7 @@
 ```yaml
 # External component definition
 external_components:
-  - source:
-      type: git
-      url: https://github.com/zarya/esphome_components
+  - source: github://zarya/esphome_components
     components: [lis2dh]
 
 i2c:
